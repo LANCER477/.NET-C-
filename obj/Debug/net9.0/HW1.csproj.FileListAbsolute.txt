@@ -1,0 +1,14 @@
+C:\Users\maksi\source\repos\HW1\HW1\bin\Debug\net9.0\HW1.exe
+C:\Users\maksi\source\repos\HW1\HW1\bin\Debug\net9.0\HW1.deps.json
+C:\Users\maksi\source\repos\HW1\HW1\bin\Debug\net9.0\HW1.runtimeconfig.json
+C:\Users\maksi\source\repos\HW1\HW1\bin\Debug\net9.0\HW1.dll
+C:\Users\maksi\source\repos\HW1\HW1\bin\Debug\net9.0\HW1.pdb
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.AssemblyInfoInputs.cache
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.AssemblyInfo.cs
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.csproj.CoreCompileInputs.cache
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.dll
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\refint\HW1.dll
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.pdb
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\HW1.genruntimeconfig.cache
+C:\Users\maksi\source\repos\HW1\HW1\obj\Debug\net9.0\ref\HW1.dll
