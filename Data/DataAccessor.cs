@@ -21,25 +21,30 @@ namespace MainProj.Data
         ByMoney
     }
 
-    internal class DataAccessor
+    public DataAccessor()
+{
+    var dbPath = Path.Combine(
+        AppDomain.CurrentDomain.BaseDirectory,
+        "Database1.mdf"   
+    );
+
+    String connectionString =
+        $@"Data Source=(LocalDB)\MSSQLLocalDB;
+           AttachDbFilename={dbPath};
+           Integrated Security=True";
+
+    this.connection = new(connectionString);
+
+    try
     {
-        public SqlConnection connection { get; private set; }
-
-        public DataAccessor()
-        {
-            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Адмін\source\repos\MainProj\Database1.mdf;Integrated Security=True";
-            this.connection = new(connectionString);
-
-            try
-            {
-                this.connection.Open();
-            }
-            catch (SqlException ex)
-            {
-                Console.WriteLine("Connection failed: {0}", ex.Message);
-                return;
-            }
-        }
+        this.connection.Open();
+    }
+    catch (SqlException ex)
+    {
+        Console.WriteLine("Connection failed: {0}", ex.Message);
+        return;
+    }
+}
 
         public IEnumerable<ProdSaleModel> Top3DailyProducts(CompareMode compareMode)
         {
