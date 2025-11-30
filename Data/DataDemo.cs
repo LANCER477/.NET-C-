@@ -262,7 +262,7 @@ namespace MainProj.Data
             Console.WriteLine("Data Demo");
 
             // I. Запуск
-            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Адмін\source\repos\csharp-all\Database1.mdf;Integrated Security=True";
+            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Адмін\source\repos\MainProj\Database1.mdf;Integrated Security=True";
             SqlConnection connection = new(connectionString);
             
             try
@@ -300,7 +300,3 @@ namespace MainProj.Data
     }
 }
 
-/*
- * Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Адмін\source\repos\csharp-all\Database1.mdf;Integrated Security=True
- * 
- */
