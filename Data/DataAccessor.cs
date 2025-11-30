@@ -27,7 +27,7 @@ namespace MainProj.Data
 
         public DataAccessor()
         {
-            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Адмін\source\repos\csharp-all\Database1.mdf;Integrated Security=True";
+            String connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Адмін\source\repos\MainProj\Database1.mdf;Integrated Security=True";
             this.connection = new(connectionString);
 
             try
